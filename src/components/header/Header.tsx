@@ -13,7 +13,7 @@ class Header extends React.Component<React.Props<Header>, {}> {
       <ul className='ulContainer'>
         <li><Link to={ RouterPathEnum.HOME }>home</Link></li>
         <li><Link to={ RouterPathEnum.ABOUT }>about</Link></li>
-        <li><Link to={ RouterPathEnum.MEMBER }>member</Link></li>
+        <li><Link to={ RouterPathEnum.ADMIN }>admin</Link></li>
       </ul>
     );
   }

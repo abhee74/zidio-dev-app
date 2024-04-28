@@ -5,7 +5,7 @@ import Home from './components/Home';
 import About from './components/about/About';
 import HeaderSmall from './components/header/HeaderSmall';
 import { RouterPathEnum } from './enums/RouterPathEnum';
-import Members from './components/member/Members';
+import AdminLogin from './components/admin/AdminLogin';
 
 interface IState {
   isSmallScreen: boolean;
@@ -38,7 +38,7 @@ class App extends React.Component<{}, IState> {
           <Switch>
             <Route exact={true} path={RouterPathEnum.HOME} component={Home}/>
             <Route path={RouterPathEnum.ABOUT} component={About}/>
-            <Route path={RouterPathEnum.MEMBER} component={Members}/>
+            <Route path={RouterPathEnum.ADMIN} component={AdminLogin}/>
             <Redirect to={RouterPathEnum.HOME} />
           </Switch>
         </div>

@@ -15,8 +15,8 @@ class Home extends React.Component<RouteComponentProps<Home>, {}> {
             go about
         </button>
         &nbsp;
-        <button onClick={ ( e: any ) => this.onClickMove( RouterPathEnum.MEMBER ) }>
-            go member
+        <button onClick={ ( e: any ) => this.onClickMove( RouterPathEnum.ADMIN ) }>
+            go admin
         </button>
       </div>
     );
